@@ -7,8 +7,9 @@
     <link href="index.css" rel="stylesheet" />
     <title>Number Guesser</title>
   </head>
+  <!-- Begin body -->
   <body>
-    <main>
+    <main> 
       <h1>Guessing Game</h1>
       <p>
         I'm thinking of a number from 1 to 99! Can you guess it in 5 tries or
@@ -18,6 +19,7 @@
         <input type="number" id="guess" min="1" max="99" />
         <button id="submit">Submit Guess</button>
       </div>
+      <!-- Response options -->
       <div>
         <p class="message" id="number-of-guesses"></p>
         <p class="message" id="too-high">You guessed too high. Try again.</p>
@@ -32,6 +34,7 @@
       </div>
       <button id="reset">Reset</button>
     </main>
+    <!--Linked to index.js-->
     <script src="index.js"></script>
   </body>
 </html>
